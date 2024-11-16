@@ -1,0 +1,44 @@
+table {
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  width: 30px;
+  outline: none;
+}
+input:focus {
+  border-color: green;
+}
+
+input.input-calendar {
+  width: 100%;
+}
+span:hover {
+  cursor: pointer;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 40%;
+}
+
+.container-header-filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 0 0px;
+}
+
+.container-value {
+  cursor: pointer;
+}
+
+.message-filter {
+  font-size: 16px;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 20px;
+}
