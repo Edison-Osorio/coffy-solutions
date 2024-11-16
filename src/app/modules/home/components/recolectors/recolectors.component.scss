@@ -1,0 +1,49 @@
+table {
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  width: 30px;
+  outline: none;
+}
+input:focus {
+  border-color: green;
+}
+
+input.input-calendar {
+  width: 100%;
+}
+span:hover {
+  cursor: pointer;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 40%;
+}
+
+.container-header-filter {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.container-value {
+  cursor: pointer;
+}
+
+.message-filter {
+  font-size: 16px;
+  padding: 20px;
+}
+
+.container-date {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 20px;
+}

@@ -1,4 +1,0 @@
-#!/usr/bin/env sh
-
-ng test --browsers ChromeHeadless --watch=false
-npm run lint:fix
